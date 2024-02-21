@@ -11,6 +11,7 @@ jobs:
               run: | 
                 node -v
                 npm -v
+
       parallel-job-macos:
         runs-on: macos-latest
         steps:
@@ -24,4 +25,4 @@ jobs:
           - name: echo a string 
             run: Write-Output "Windows String"
           - name: Error Step
-            run: doesnotexists
+            run: doesnotexist
