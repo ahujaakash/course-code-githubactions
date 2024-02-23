@@ -4,8 +4,8 @@ on:
     - cron: "0/1 * * * *"
 
 jobs:
-  stale:
+  cron-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Cron Job
-        run: echo "I am executing per minutes change"
+        - name: Cron Job
+          run: echo "I am executing per minutes change"
