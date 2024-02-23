@@ -7,4 +7,5 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      run: echo "I am executing per minutes"
+      - name: Cron Job
+        run: echo "I am executing per minutes"
