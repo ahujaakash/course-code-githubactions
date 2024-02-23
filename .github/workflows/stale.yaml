@@ -1,4 +1,4 @@
-name: Stale Issues & PRs
+name: First Cron Job
 on:
   schedule:
     - cron: "0/1 * * * *"
