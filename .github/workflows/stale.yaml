@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Cron Job
-          run: echo "I am executing per minutes change"
+          run: echo I am executing per minutes change
